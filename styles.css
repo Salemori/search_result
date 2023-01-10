@@ -349,11 +349,12 @@ a{
     /* border: 2px solid red; */
   }
   
-  .search-sec {
-    /* width: 625px; */
-    /* border: 2px solid green; */
+  /* .search-sec {
+    width: 625px;
+   border: 2px solid green;
   }
-  
+   */
+   
   .logo {
     padding: 4px 40px 0 0;
   }
@@ -412,12 +413,14 @@ a{
     font-size: 2.4rem;
     /* font-weight: normal; */
   }
-  .camera,
-  .keyboard i,
+
+  /* .mic img,
   .close-btn {
     margin-right: 1.8rem;
+  } */
+  .camera, .mic{
+    margin-right: 10px;
   }
-  
   .close-btn img {
     height: 1.4rem;
     width: 1.4rem;
@@ -427,10 +430,12 @@ a{
     width: 2.4rem;
   }
   
-  .keyboard i,
-  .settings i,
-  .search-btn i {
+  .keyboard img,
+  .settings i{
     font-size: 2rem;
+  }
+  .search-btn img{
+    width: 25px;
   }
   
   .search-btn {
@@ -496,6 +501,9 @@ a{
   .nav-links ul li .icon {
     margin-right: 5px;
   }
+  .icon-image{
+    width: 20px;
+  }
   .nav-links li:last-child {
     position: absolute;
     right: 0;
@@ -506,11 +514,11 @@ a{
     padding-bottom: 10px;
   }
   
-  .play {
+  /* .play {
     height: 3rem;
     width: 3rem;
-    /* margin-right: 5px-; */
-  }
+    
+  } */
   
   .text {
     margin-left: 0.8rem;
@@ -702,9 +710,9 @@ a{
     margin-bottom: 10px;
   }
   
-  .daily-post {
+  /* .daily-post {
   }
-  
+   */
   .footballero {
     position: absolute;
     bottom: 0;
@@ -942,8 +950,8 @@ a{
     color: #70757a;
     font-size: 12px;
   }
-  .borer-bottom {
-  }
+  /* .borer-bottom {
+  } */
   td {
     padding: 8px 0px;
     border-top: 1px solid #70757a;
