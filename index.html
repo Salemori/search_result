@@ -1,357 +1,329 @@
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/e3e38d9699.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/e3e38d9699.js" crossorigin="anonymous"></script>
 
     <title>Google Search Result Page</title>
-  </head>
-  <body>
-    <div class="page-wraper">
-      <section class="top-section">
-        <div class="search-sec flex between align-center">
-          <div class="left flex align-center">
-            <div class="logo">
-              <img src="./images/google-logo1.png" alt="" />
-            </div>
+</head>
 
-            <div class="search flex align-center between">
-              <form action="">
-                <input type="text" />
-              </form>
-              <div class="search-icons flex align-center">
-                <!-- <div class="close-icon">
+<body>
+    <div class="page-wraper">
+        <section class="top-section">
+            <div class="search-sec flex between align-center">
+                <div class="left flex align-center">
+                    <div class="logo">
+                        <img src="./images/google-logo1.png" alt="" />
+                    </div>
+
+                    <div class="search flex align-center between">
+                        <form action="">
+                            <input type="text" />
+                        </form>
+                        <div class="search-icons flex align-center">
+                            <!-- <div class="close-icon">
                   <button class="close-btn">
                     <img src="./images/cancel.svg" alt="" />
                   
                   </button>
                 </div> -->
-                <!-- <div class="line"></div> -->
-                <div class="mic"><img src="./images/mic.svg" alt=""></div>
-                <div class="camera">
-                  <img src="./images/imageSeach1.svg" alt="Image search" />
+                            <!-- <div class="line"></div> -->
+                            <div class="mic"><img src="./images/mic.svg" alt=""></div>
+                            <div class="camera">
+                                <img src="./images/imageSeach1.svg" alt="Image search" />
+                            </div>
+                            <div class="search-icon">
+                                <button class="search-btn">
+                                    <!-- <i class="fas fa-search"></i> -->
+                                    <img src="./images/searchIcon.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="search-icon">
-                  <button class="search-btn">
-                    <!-- <i class="fas fa-search"></i> -->
-                    <img src="./images/searchIcon.svg" alt="">
-                  </button>
+                <div class="right">
+                    <div class="settings flex align-center">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="dots flex align-center">
+                        <img src="./images/dots-img.png" alt="" />
+                    </div>
+                    <div class="profile flex align-center">
+                        <img src="./images/10013.png" alt="" />
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="right">
-            <div class="settings flex align-center">
-              <i class="fas fa-cog"></i>
+
+            <div class="nav">
+                <ul class="nav-links flex">
+                    <li>
+                        <a href="#" class="flex align-center all-border"><span class="icon all"><img
+                                    src="./images/searchIcon2.svg" alt="" class="icon-image"></span><span
+                                class="text all" style="color: rgb(26,115,232);">All</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex align-center"><span class="icon"><img src="./images/news.svg" alt=""
+                                    class="icon-image"></span><span class="text">News</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex align-center"><span class="icon"><img class="play icon-image"
+                                    src="./images/image.svg" alt="" /></span><span class="text">Images</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex align-center"><span class="icon"><img src="./images/video.svg" alt=""
+                                    class="icon-image"></span><span class="text">Videos </span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex align-center"><span class="icon"><i
+                                    class="fas fa-ellipsis-v"></i></span><span class="text">More</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex align-center"><button class="tools-btn">Tools</button></a>
+                    </li>
+                </ul>
             </div>
-            <div class="dots flex align-center">
-              <img src="./images/dots-img.png" alt="" />
+
+            <div class="results">
+                <p>About 633,000,000 results (0.49 seconds) </p>
             </div>
-            <div class="profile flex align-center">
-              <img src="./images/10013.png" alt="" />
+
+            <div class="nav-profile">
+                <div class="profile-img"><img src="./images/ronaldo1.jpg" alt="" /></div>
+                <div class="name">
+                    <div>Cristiano Ronaldo</div>
+                    <div style="font-size: 14px;">Portuguese footballer</div>
+
+                </div>
+
+                <div class="name-dots flex align-center">
+
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="nav-sec-btns">
+                    <button class="nav-sec-btn nchikota-btn">Overview</button>
+                    <button class="nav-sec-btn">News</button>
+                    <button class="nav-sec-btn">Stat</button>
+                    <button class="nav-sec-btn">Videos</button>
+                </div>
             </div>
-          </div>
-        </div>
-
-        <div class="nav">
-          <ul class="nav-links flex">
-            <li>
-              <a href="#" class="flex align-center all-border"
-                ><span class="icon all"><img src="./images/searchIcon2.svg" alt="" class="icon-image"></span
-                ><span class="text all" style="color: rgb(26,115,232);">All</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="flex align-center"
-                ><span class="icon"><img src="./images/news.svg" alt="" class="icon-image"></span
-                ><span class="text">News</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="flex align-center"
-                ><span class="icon"
-                  ><img
-                    class="play icon-image"
-                    src="./images/image.svg"
-                    alt="" /></span
-                ><span class="text">Images</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="flex align-center"
-                ><span class="icon"><img src="./images/video.svg" alt="" class="icon-image"></span
-                ><span class="text">Videos </span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="flex align-center"
-                ><span class="icon"><i class="fas fa-ellipsis-v"></i></span
-                ><span class="text">More</span></a
-              >
-            </li>
-            <li>
-              <a href="#" class="flex align-center"
-                ><button class="tools-btn">Tools</button></a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <div class="results">
-          <p>About 633,000,000 results (0.49 seconds) </p>
-        </div>
-
-        <div class="nav-profile">
-          <div class="profile-img"><img src="./images/ronaldo1.jpg" alt="" /></div>
-          <div class="name"><div>Cristiano Ronaldo</div>
-          <div style="font-size: 14px;">Portuguese footballer</div>
-
-          </div>
-          
-          <div class="name-dots flex align-center">
-            
-            <i class="fas fa-ellipsis-v"></i>
-          </div>
-          <div class="nav-sec-btns">
-            <button class="nav-sec-btn nchikota-btn">Overview</button>
-            <button class="nav-sec-btn">News</button>
-            <button class="nav-sec-btn">Stat</button>
-            <button class="nav-sec-btn">Videos</button>
-          </div>
-        </div>
-      </section>
-      <div class="divide"></div>
-      <main class="main-content">
-        <section class="gallery-section">
-          <div class="gal-img gal-1">
-            <img src="./images/ronaldo21.jpg" alt="" />
-          </div>
-          <div class="gal-img">
-            <img src="./images/ronaldo32.jpg" alt="" />
-          </div>
-          <div class="gal-img">
-            <img src="./images/ronaldo41.jpg" alt="" />
-          </div>
-          <div class="gal-img gal-4">
-            <img src="./images/ronaldo51.jpg" alt="" />
-          </div>
-          <div class="more-images">
-            <i class="far fa-image"></i>
-            <a href="#">More Images</a>
-          </div>
         </section>
-        <section class="latest-nes-sec">
-          <div class="latest-news-heading">World News </div>
-          <div class="latest-news">
-            <div class="daily-post">
-              <img
-                class="daily-post-top-img"
-                src="./images/ronaldo1.jpg"
-                alt=""
-              />
-              <div class="daily-post-text">
-                <div class="news-logo">
-                  <img src="./images/daily-post-logo.jpg" alt="" />
+        <div class="divide"></div>
+        <main class="main-content">
+            <section class="gallery-section">
+                <div class="gal-img gal-1">
+                    <img src="./images/ronaldo21.jpg" alt="" />
                 </div>
-                <div class="news-link">
-                  <a href="#">
-                    <span
-                      >Cristiano Ronaldo has date for official AI Nassr debut: Will there be a friendly vs...</span
-                    >
-                  </a>
+                <div class="gal-img">
+                    <img src="./images/ronaldo32.jpg" alt="" />
                 </div>
-                <div class="update-time">
-                  <p>1 day ago</p>
+                <div class="gal-img">
+                    <img src="./images/ronaldo41.jpg" alt="" />
                 </div>
-              </div>
-              <div class="footballero">
-                <div class="footballero-container g-h">
-                  <div class="updtate-left">
-                    <div class="news-logo">
-                      <img src="./images/futbelero-logo.png" alt="" />
+                <div class="gal-img gal-4">
+                    <img src="./images/ronaldo51.jpg" alt="" />
+                </div>
+                <div class="more-images">
+                    <i class="far fa-image"></i>
+                    <a href="#">More Images</a>
+                </div>
+            </section>
+            <section class="latest-nes-sec">
+                <div class="latest-news-heading">Top Stories </div>
+                <div><a href="#" style="font-size: 17px; font-weight: 500; color: rgb(35, 37, 39);"
+                        class="latest-news-heading">News about Cristiano Ronaldo ></a> </div>
+                <div class="latest-news">
+                    <div class="daily-post">
+                        <img class="daily-post-top-img" src="./images/ronaldo61.jpg" alt="" />
+                        <div class="daily-post-text">
+                            <div class="news-logo">
+                                <img src="./images/express-logo1.png" alt="" />
+                            </div>
+                            <div class="news-link">
+                                <a href="#">
+                                    <span>Cristiano Ronaldo has date for official AI Nassr debut: Will there be a
+                                        friendly vs...</span>
+                                </a>
+                            </div>
+                            <div class="update-time">
+                                <p>1 day ago</p>
+                            </div>
+                        </div>
+                        <div class="footballero">
+                            <div class="footballero-container g-h">
+                                <div class="updtate-left">
+                                    <div class="news-logo">
+                                        <img src="./images/dailyMail-logo1.png" alt="" />
+                                    </div>
+                                    <div class="news-link">
+                                        <a href="#">
+                                            <span>Rudi Garcia compares Cristiano Ronaldo's move to Pelé</span>
+                                        </a>
+                                    </div>
+                                    <div class="update-time">
+                                        <p>1 day ago</p>
+                                    </div>
+                                </div>
+                                <div class="update-right">
+                                    <img src="./images/c-r11.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="news-link">
-                      <a href="#">
-                        <span
-                          >Rudi Garcia compares Cristiano Ronaldo's move to Pelé</span
-                        >
-                      </a>
+                    <div class="mirror g-h">
+                        <div class="updtate-left">
+                            <div class="news-logo">
+                                <img src="./images/dailyPost-logo1.jpg" alt="" style="width: 48px;"/>
+                            </div>
+                            <div class="news-link">
+                                <a href="#">
+                                    <span> Cristiano Ronaldo has already made feelings on Chelsea-bound Joao
+                                        Felix...</span>
+                                </a>
+                            </div>
+                            <div class="update-time">
+                                <p>11 hours ago</p>
+                            </div>
+                        </div>
+                        <div class="update-right">
+                            <img src="./images/c-r21.jpg" alt="" />
+                        </div>
                     </div>
-                    <div class="update-time">
-                      <p>1 day ago</p>
+                    <div class="sport-bible g-h">
+                        <div class="updtate-left">
+                            <div class="news-logo">
+                                <img src="./images/marca-logo1.png" alt="" />
+                            </div>
+                            <div class="news-link">
+                                <a href="#">
+                                    <span>
+                                        Cristiano Ronaldo's girlfriend has strict Saudi rules to follow with ban on
+                                        public...</span>
+                                </a>
+                            </div>
+                            <div class="update-time">
+                                <p>1 day ago</p>
+                            </div>
+                        </div>
+                        <div class="update-right">
+                            <img src="./images/c-r31.jpg" alt="" />
+                        </div>
                     </div>
-                  </div>
-                  <div class="update-right">
-                    <img src="./images/futbalero-img.jpg" alt="" />
-                  </div>
+                    <div class="football365 g-h">
+                        <div class="updtate-left">
+                            <div class="news-logo footbal365-logo-sec">
+                                <img src="./images/tf-logo1.png" alt="" />
+                                <span>Football365</span>
+                            </div>
+                            <div class="news-link">
+                                <a href="#">
+                                    <span> Cristiano Ronaldo's first game since moving to Sauid Arabia could see hi
+                                        ...</span>
+                                </a>
+                            </div>
+                            <div class="update-time">
+                                <p>6 hours ago</p>
+                            </div>
+                        </div>
+                        <div class="update-right">
+                            <img src="./images/c-r41.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="also">
+                        <p>Also in the news</p>
+                    </div>
+                    <div class="daily-post-2 g-h">
+                        <div class="updtate-left">
+                            <div class="news-logo">
+                                <img src="./images/as-logo1.png" alt="" style="width: 27px;"/>
+                            </div>
+                            <div class="news-link">
+                                <a href="#">
+                                    <span>Cristiano Ronaldo has already made feelings on Chelsea-bound Joao
+                                        Felix...</span>
+                                </a>
+                            </div>
+                            <div class="update-time">
+                                <p>11 hours ago</p>
+                            </div>
+                        </div>
+                        <div class="update-right">
+                            <img src="./images/c-r51.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="sky-sports g-h">
+                        <div class="updtate-left">
+                            <div class="news-logo">
+                                <img src="./images/indianex-logo1.png" alt="" />
+                            </div>
+                            <div class="news-link">
+                                <a href="#">
+                                    <span>Cristiano Ronaldo and Georgina Rodriguez pay £250,000 per-month for
+                                        17-...</span>
+                                </a>
+                            </div>
+                            <div class="update-time">
+                                <p>1 day ago</p>
+                            </div>
+                        </div>
+                        <div class="update-right">
+                            <img src="./images/c-r61.jpg" alt="" />
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="mirror g-h">
-              <div class="updtate-left">
-                <div class="news-logo">
-                  <img src="./images/mirror-logo.png" alt="" />
-                </div>
-                <div class="news-link">
-                  <a href="#">
-                    <span
-                      > Cristiano Ronaldo has already made feelings on Chelsea-bound Joao Felix...</span
-                    >
-                  </a>
-                </div>
-                <div class="update-time">
-                  <p>11 hours ago</p>
-                </div>
-              </div>
-              <div class="update-right">
-                <img src="./images/pep_guardiola.jpg" alt="" />
-              </div>
-            </div>
-            <div class="sport-bible g-h">
-              <div class="updtate-left">
-                <div class="news-logo">
-                  <img src="./images/sport-bible-logo.png" alt="" />
-                </div>
-                <div class="news-link">
-                  <a href="#">
-                    <span
-                      >
-                      Cristiano Ronaldo's girlfriend has strict Saudi rules to follow with ban on public...</span
-                    >
-                  </a>
-                </div>
-                <div class="update-time">
-                  <p>1 day ago</p>
-                </div>
-              </div>
-              <div class="update-right">
-                <img src="./images/sport-bible-img.jpg" alt="" />
-              </div>
-            </div>
-            <div class="football365 g-h">
-              <div class="updtate-left">
-                <div class="news-logo footbal365-logo-sec">
-                  <img src="./images/footbal365-logo.png" alt="" />
-                  <span>Football365</span>
-                </div>
-                <div class="news-link">
-                  <a href="#">
-                    <span
-                      > Cristiano Ronaldo's first game since moving to Sauid Arabia could see hi ...</span
-                    >
-                  </a>
-                </div>
-                <div class="update-time">
-                  <p>6 hours ago</p>
-                </div>
-              </div>
-              <div class="update-right">
-                <img src="./images/ronaldo.jpg" alt="" />
-              </div>
-            </div>
-            <div class="also">
-              <p>Also in the news</p>
-            </div>
-            <div class="daily-post-2 g-h">
-              <div class="updtate-left">
-                <div class="news-logo">
-                  <img src="./images/daily-post-logo.jpg" alt="" />
-                </div>
-                <div class="news-link">
-                  <a href="#">
-                    <span
-                      >Cristiano Ronaldo has already made feelings on Chelsea-bound Joao Felix...</span
-                    >
-                  </a>
-                </div>
-                <div class="update-time">
-                  <p>11 hours ago</p>
-                </div>
-              </div>
-              <div class="update-right">
-                <img src="./images/daily-post-img-2.jpg" alt="" />
-              </div>
-            </div>
-            <div class="sky-sports g-h">
-              <div class="updtate-left">
-                <div class="news-logo">
-                  <img src="./images/sky-sport-logo.png" alt="" />
-                </div>
-                <div class="news-link">
-                  <a href="#">
-                    <span
-                      >Cristiano Ronaldo and Georgina Rodriguez pay £250,000 per-month for 17-...</span
-                    >
-                  </a>
-                </div>
-                <div class="update-time">
-                  <p>1 day ago</p>
-                </div>
-              </div>
-              <div class="update-right">
-                <img src="./images/sky-sport-img.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
-        <aside>
-          <div class="about flex ">
-            <div class="about-heading">
-              <p>About</p>
-            </div>
-            <div class="about-intro">
-              <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for Saudi Professional League club Al Nassr and captains the Portugal national team. <a href="#" class="about-sec-link">Wikipedia</a></p>
-            </div>
-            <div class="birth-year">
-              <p><span class="bolder">Born:</span>5 February 1985 (age 37 years), 
-              <a href="#" class="about-sec-link">Hospital Dr. Netolio Mendonca, Franchal, Portugal</a>
-              </p>
-            </div>
+            </section>
+            <aside>
+                <div class="about flex ">
+                    <div class="about-heading">
+                        <p>About</p>
+                    </div>
+                    <div class="about-intro">
+                        <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who
+                            plays as a forward for Saudi Professional League club Al Nassr and captains the Portugal
+                            national team. <a href="#" class="about-sec-link">Wikipedia</a></p>
+                    </div>
+                    <div class="birth-year">
+                        <p><span class="bolder">Born:</span>5 February 1985 (age 37 years),
+                            <a href="#" class="about-sec-link">Hospital Dr. Netolio Mendonca, Franchal, Portugal</a>
+                        </p>
+                    </div>
 
-            <div class="spouse">
-              <p><span class="bolder">Children:</span> 
-              <a href="#" class="about-sec-link">Cristiano Ronaldo Jr.,</a>
-              <a href="#" class="about-sec-link">Bella Esmeralda,</a>
-              <a href="#" class="about-sec-link">Alana Martina dos Santos Aveiro,</a>
-              <a href="#" class="about-sec-link">Eva Maria Dos Santos, </a>
-              <a href="#" class="about-sec-link">Mateo Ronaldo</a>
-             
-              </p>
-            </div>
-            
-           
-           <div class="current-teams">
-            <p><span class="bolder">Current teams:</span><a href="#" class="about-sec-link">Portugal national football team</a>
-             (#7 / Forward)
-             <a href="#" class="about-sec-link">Paris Saint-Germain F.C.</a> (#30 / Forward)
-            </p>
-          </div>
+                    <div class="spouse">
+                        <p><span class="bolder">Children:</span>
+                            <a href="#" class="about-sec-link">Cristiano Ronaldo Jr.,</a>
+                            <a href="#" class="about-sec-link">Bella Esmeralda,</a>
+                            <a href="#" class="about-sec-link">Alana Martina dos Santos Aveiro,</a>
+                            <a href="#" class="about-sec-link">Eva Maria Dos Santos, </a>
+                            <a href="#" class="about-sec-link">Mateo Ronaldo</a>
 
-          <div class="date-joined">
-            <p><span class="bolder">Dates joined:</span> 2023 <a href="#">(Al-Nassr FC), 2022 <a href="#"> (Al-Nassr FC),</a> <a href="#">MORE</a></a></p> 
-           </div>
+                        </p>
+                    </div>
 
-          <div class="height">
-            <p><span class="bolder">Height:</span> 1.87 m </p> 
-          </div>
-          <div class="salary">
-              <p><span class="bolder">Salary:</span>  62 million GBP (2023)
-              </p> 
-             </div>
-             <!-- <div class="children">
+
+                    <div class="current-teams">
+                        <p><span class="bolder">Current teams:</span><a href="#" class="about-sec-link">Portugal
+                                national football team</a>
+                            (#7 / Forward)
+                            <a href="#" class="about-sec-link">Paris Saint-Germain F.C.</a> (#30 / Forward)
+                        </p>
+                    </div>
+
+                    <div class="date-joined">
+                        <p><span class="bolder">Dates joined:</span> 2023 <a href="#">(Al-Nassr FC), 2022 <a href="#">
+                                    (Al-Nassr FC),</a> <a href="#">MORE</a></a></p>
+                    </div>
+
+                    <div class="height">
+                        <p><span class="bolder">Height:</span> 1.87 m </p>
+                    </div>
+                    <div class="salary">
+                        <p><span class="bolder">Salary:</span> 62 million GBP (2023)
+                        </p>
+                    </div>
+                    <!-- <div class="children">
               <p><span class="bolder">Children:</span> 
               <a href="#" class="about-sec-link">Mateo Messi Roccuzzo,
                 Thiago Messi Roccuzzo, Ciro Messi Roccuzzo
@@ -359,155 +331,162 @@
                
               </p>
              </div> -->
-             <!-- <div class="shoe">
+                    <!-- <div class="shoe">
               <p><span class="bolder">Shoe size:</span> 10
               </p> 
              </div> -->
 
-             <div class="awards">
-                <p><span class="bolder">Awards:</span> <a href="#">European Golden Shoe,</a> <a href="#">Ballon d'Or Dream Team,</a> <a href="#">MORE</a></p> 
-              </div>
+                    <div class="awards">
+                        <p><span class="bolder">Awards:</span> <a href="#">European Golden Shoe,</a> <a href="#">Ballon
+                                d'Or Dream Team,</a> <a href="#">MORE</a></p>
+                    </div>
 
-             <div class="claim flex between">
-              <div class="button flex">
-                <button class="claim-btn flex align-center">
-                  <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="claim-svg">
-                  <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"></path>
-                </svg>
-               <a href="#"> Claim this knowledge panels</a>
-                </button>
-          
+                    <div class="claim flex between">
+                        <div class="button flex">
+                            <button class="claim-btn flex align-center">
+                                <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    class="claim-svg">
+                                    <path
+                                        d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z">
+                                    </path>
+                                </svg>
+                                <a href="#"> Claim this knowledge panels</a>
+                            </button>
 
-              </div>
 
-              <div class="text"><a href="#">Feedback</a></div>
-             </div>
-            </div>
-          
-           
-          <div class="statistics">
-          <div class="stats-heading flex between align-center">
-            <div class="heading-text"><span class="stats"> Stats</span></div>
-            <div class="heading-btn">
-              <button><i class="fas fa-angle-right"></i></button>
-            </div>
-          </div>
-          <div class="argentina">
-            <p>Argentina</p>
-          </div>
-          <div class="table">
-            <table>
-              <tr class="border-bottom">
-                <th>League</th>
-                <th>Matches</th>
-                <th>Goals</th>
-              </tr>
-              <tr>
-                <td>
-                  World Cup <br />
-                  <span class="grey">2022</span>
-                </td>
-                <td class="figure">5</td>
-                <td>1</td>
-              </tr>
-              <tr>
-                <td>
-                  World Cup <br />
-                  Qualifiers <br />
-                  <span class="grey">2021-22</span>
-                </td>
-                <td>9</td>
-                <td>6</td>
-              </tr>
-              <tr>
-                <td>
-                  UEFA EURO <br />
-                  <span class="grey">2021</span>
-                </td>
-                <td>4</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>
-                  UEFA EURO Qualifiers<br />
-                  <span class="grey">2019-20</span>
-                </td>
-                <td>8</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>
-                  FIFA Confederations Cup <br />
-                  <span class="grey">2017</span>
-                </td>
-                <td>4</td>
-                <td>2</td>
-              </tr>
-            </table>
-          </div>
-          </div>
+                        </div>
 
-           <div class="profiles">
-              <div class="profile-heading">
-                <p>Profiles</p>
-              </div>
-              <div class="profile-icons">
-                <div class="instagram">
-                  <img src="./images/instagram.png" alt="">
+                        <div class="text"><a href="#">Feedback</a></div>
+                    </div>
                 </div>
-                <div class="youtube">
-                  <img src="./images/youtube.png" alt="">
-                </div>
-                <div class="facebook">
-                  <img src="./images/facebook.png" alt="">
-                </div>
-                <div class="instagram-text"><a href="#">Instagram</a></div>
-                <div class="youtube-text"><a href="#"> Youtube</a></div>
-              
-               <div class="facebook-text"><a href="#"> Facebook</a></div></div>
-               </div>
-            <div class="also-search">
-               <div class="profile-heading">
-                <p>People also search for</p>
-              </div>
-              <div class="profile-icons also-search-icon">
-                <div class="instagram">
-                  <img src="./images/also-1.jpg" alt=""> 
-                </div>
-                 <div class="youtube">
-                  <img src="./images/also-2.jpg" alt="">
-                </div>
-                <div class="facebook">
-                  <img src="./images/also-4.jpg" alt="">
-                </div>
-                 <div class="facebook">
-                  <img src="./images/also-3.jpg" alt="">
-                </div>
-                
-                                <div class="instagram-text"><a href="#">Gareth Bale</a></div>
-                <div class="youtube-text"><a href="#"> Lionel Messi</a></div>
-                 <div class="facebook-text"><a href="#"> Georgiana Rodrig...</a></div>
-                 <div class="facebook-text"><a href="#"> Neymar</a></div>
-              
 
-              </div>
-              
-            </div>
-        </aside>
-        <section class="search-links">
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://en.wikipedia.org › wiki › Cristiano_Ronaldo</a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-            </div>
-            <div class="search-topic-heading">
-              <a href="#">Cristiano Ronaldo - Wikipedia </a>
-            </div>
-            <div class="search-result-intro">
-              <p>
-                22 hours ago — <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for Saudi Professional League club Al Nassr and ...
-              </p>
-              <!-- <div class="search-intro-2">
+
+                <div class="statistics">
+                    <div class="stats-heading flex between align-center">
+                        <div class="heading-text"><span class="stats"> Stats</span></div>
+                        <div class="heading-btn">
+                            <button><i class="fas fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="argentina">
+                        <p>Argentina</p>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <tr class="border-bottom">
+                                <th>League</th>
+                                <th>Matches</th>
+                                <th>Goals</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    World Cup <br />
+                                    <span class="grey">2022</span>
+                                </td>
+                                <td class="figure">5</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    World Cup <br />
+                                    Qualifiers <br />
+                                    <span class="grey">2021-22</span>
+                                </td>
+                                <td>9</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    UEFA EURO <br />
+                                    <span class="grey">2021</span>
+                                </td>
+                                <td>4</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    UEFA EURO Qualifiers<br />
+                                    <span class="grey">2019-20</span>
+                                </td>
+                                <td>8</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    FIFA Confederations Cup <br />
+                                    <span class="grey">2017</span>
+                                </td>
+                                <td>4</td>
+                                <td>2</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="profiles">
+                    <div class="profile-heading">
+                        <p>Profiles</p>
+                    </div>
+                    <div class="profile-icons">
+                        <div class="instagram">
+                            <img src="./images/instagram.png" alt="">
+                        </div>
+                        <div class="youtube">
+                            <img src="./images/youtube.png" alt="">
+                        </div>
+                        <div class="facebook">
+                            <img src="./images/facebook.png" alt="">
+                        </div>
+                        <div class="instagram-text"><a href="#">Instagram</a></div>
+                        <div class="youtube-text"><a href="#"> Youtube</a></div>
+
+                        <div class="facebook-text"><a href="#"> Facebook</a></div>
+                    </div>
+                </div>
+                <div class="also-search">
+                    <div class="profile-heading">
+                        <p>People also search for</p>
+                    </div>
+                    <div class="profile-icons also-search-icon">
+                        <div class="instagram">
+                            <img src="./images/also-1.jpg" alt="">
+                        </div>
+                        <div class="youtube">
+                            <img src="./images/also-2.jpg" alt="">
+                        </div>
+                        <div class="facebook">
+                            <img src="./images/also-4.jpg" alt="">
+                        </div>
+                        <div class="facebook">
+                            <img src="./images/also-3.jpg" alt="">
+                        </div>
+
+                        <div class="instagram-text"><a href="#">Gareth Bale</a></div>
+                        <div class="youtube-text"><a href="#"> Lionel Messi</a></div>
+                        <div class="facebook-text"><a href="#"> Georgiana Rodrig...</a></div>
+                        <div class="facebook-text"><a href="#"> Neymar</a></div>
+
+
+                    </div>
+
+                </div>
+            </aside>
+            <section class="search-links">
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://en.wikipedia.org › wiki › Cristiano_Ronaldo</a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Cristiano Ronaldo - Wikipedia </a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            22 hours ago — <em>Cristiano Ronaldo</em> dos Santos Aveiro GOIH ComM is a Portuguese
+                            professional footballer who plays as a forward for Saudi Professional League club Al Nassr
+                            and ...
+                        </p>
+                        <!-- <div class="search-intro-2">
                 <p>
                   Heightkolonu 1.70 m (5 ft 7 in)
                   <span class="space-1"
@@ -521,177 +500,178 @@
                   </span>
                 </p>
               </div> -->
-            </div>
-            <div class="other-link">
-              <ul class="flex align-center">
-                <li><a href="#">Ronaldo (film)</a></li>
-                <span>.</span>
-                <li><a href="#">C.D. Nacional</a></li>
-                <span>.</span>
-                <li><a href="#">Irina Shayk</a></li>
-                <span>.</span>
-                <li><a href="#">Free agent</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://www.besoccer.com </a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-              <span class="http-sub"><a href="#">› player › c-ronaldo-28185</a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#"
-                >Profile of Cristiano Ronaldo: Info, news, matches and statistics
-              </a>
-            </div>
-            <div class="search-result-intro">
-              <p>
-                Access all Cristiano Ronaldo's information, news, matches and many more stats. Search our website and discover everything about your favourite player.
-              </p>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#">ttps://www.marca.com › ...</a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-              <span class="http-sub"><a href="#">› Soccer › Premier League </a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#">Latest Cristiano Ronaldo News Today - MARCA</a>
-            </div>
-            <div class="search-result-intro">
-              <p>
-                Get updates on the latest <em>Cristiano Ronaldo</em> News and enjoy our posts, videos and analysis on Marca English. All <em>Cristiano Ronaldo</em> news in the same place.
-              </p>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://www.goal.com</a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-              <span class="http-sub"><a href="#">› en-gb › cristiano-ronaldo </a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#">
-                Cristiano Ronaldo, Latest News & Player Profile - Goal.com</a>
-            </div>
-            <div class="search-result-intro">
-              <p>
-                8 hours ago — <em>Cristiano Ronaldo</em>, latest news & rumours, player profile, detailed statistics, career details and transfer information for the Al Nassr FC player, ...
-              </p>
-              <p>Sat, 14 Jan
-                <a href="#">Al Shabab vs Al Nassr</a></p>
-              <p>Sun, 22 Jan
-                <a href="#">Al Nassr vs Al Ittifaq</a></p>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://www.mirror.co.uk</a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-              <span class="http-sub"><a href="#"> › Sport› Football</a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#"
-                >Cristiano Ronaldo - latest news, net worth and boots - The Mirror</a
-              >
-            </div>
-            <div class="search-result-intro">
-              <p>
-                4 hours ago — One of the world's best football players, Cristiano Ronaldo set many records while playing for Manchester United, Real Madrid, Juventus and the Portuguese ...
-              </p>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#">https://www.instagram.com
-            </a>
-              <i class="fas fa-caret-down"></i>
-              <span class="http-sub"><a href="#"> › cristiano </a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#"
-                >Cristiano Ronaldo (@cristiano) • Instagram photos and videos</a
-              >
-            </div>
-            <div class="search-result-intro">
-              <p>
-                529m Followers, 528 Following, 3418 Posts - See Instagram photos and videos from Cristiano Ronaldo (@cristiano)
-              </p>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://www.transfermarkt.com</a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-              <span class="http-sub"><a href="#">› profil › spieler </a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#"
-                >Cristiano Ronaldo - Player profile 22/23 | Transfermarkt</a
-              >
-            </div>
-            <div class="search-result-intro search-result-intro-with-pic flex">
-              <div class="search-result-pic">
-                <img src="./images/celebrates.jpg" alt="" />
-              </div>
-              <div class="search-result-intro">
-                <p>
-                    Cristiano Ronaldo, 37, from Portugal ➤ Al-Nassr FC, since 2022 ➤ Centre-Forward ➤ Market value: €20.00m ➤ * Feb 5, 1985 in Funchal, Portugal.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://www.realmadrid.com</a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-              <span class="http-sub"><a href="#"> › ... › Football legends
-            </a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#"
-                >Cristiano Ronaldo | Real Madrid CF</a
-              >
-            </div>
-            <div class="search-result-intro">
-              <p>
-                Cristiano Ronaldo is a part of Real Madrid's legacy and will forever be remember as one of the great icons throughout the club's history.
-              </p>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://www.manchestereveningnews.co.uk</a>
-              <i class="fas fa-caret-down"></i>
-              <span class="http-sub"><a href="#"> › Sport
-            </a></span>
-            </div>
-            <div class="search-topic-heading">
-              <a href="#"
-                >Cristiano Ronaldo - latest news, stats, injury updates and goals</a
-              >
-            </div>
-            <div class="search-result-intro">
-              <p>
-                8 hours ago — Portuguese forward <em>Cristiano Ronaldo</em> joined Manchester United for a second time in September 2021 when he moved back to Old Trafford from Juventus.
-              </p>
-            </div>
-          </div>
-          <div class="search-link">
-            <div class="http-link">
-              <a href="#"> https://www.dailymail.co.uk › sport › cristianoronaldo</a>
-              <!-- <i class="fas fa-caret-down"></i> -->
-            </div>
-            <div class="search-topic-heading">
-              <a href="#">Cristiano Ronaldo News, Stats and Updates | Daily Mail Online</a>
-            </div>
-            <div class="search-result-intro">
-              <p>
-                12 hours ago — Saudi-bound <em>Cristiano Ronaldo</em> jets off to Riyadh with his family on their private jet ahead of his Al-Nassr medical - and he could even make his debut this week ...
-              </p>
-              <!-- <div class="search-intro-2 ">
+                    </div>
+                    <div class="other-link">
+                        <ul class="flex align-center">
+                            <li><a href="#">Ronaldo (film)</a></li>
+                            <span>.</span>
+                            <li><a href="#">C.D. Nacional</a></li>
+                            <span>.</span>
+                            <li><a href="#">Irina Shayk</a></li>
+                            <span>.</span>
+                            <li><a href="#">Free agent</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://www.besoccer.com </a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                        <span class="http-sub"><a href="#">› player › c-ronaldo-28185</a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Profile of Cristiano Ronaldo: Info, news, matches and statistics
+                        </a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            Access all Cristiano Ronaldo's information, news, matches and many more stats. Search our
+                            website and discover everything about your favourite player.
+                        </p>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#">ttps://www.marca.com › ...</a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                        <span class="http-sub"><a href="#">› Soccer › Premier League </a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Latest Cristiano Ronaldo News Today - MARCA</a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            Get updates on the latest <em>Cristiano Ronaldo</em> News and enjoy our posts, videos and
+                            analysis on Marca English. All <em>Cristiano Ronaldo</em> news in the same place.
+                        </p>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://www.goal.com</a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                        <span class="http-sub"><a href="#">› en-gb › cristiano-ronaldo </a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">
+                            Cristiano Ronaldo, Latest News & Player Profile - Goal.com</a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            8 hours ago — <em>Cristiano Ronaldo</em>, latest news & rumours, player profile, detailed
+                            statistics, career details and transfer information for the Al Nassr FC player, ...
+                        </p>
+                        <p>Sat, 14 Jan
+                            <a href="#">Al Shabab vs Al Nassr</a>
+                        </p>
+                        <p>Sun, 22 Jan
+                            <a href="#">Al Nassr vs Al Ittifaq</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://www.mirror.co.uk</a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                        <span class="http-sub"><a href="#"> › Sport› Football</a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Cristiano Ronaldo - latest news, net worth and boots - The Mirror</a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            4 hours ago — One of the world's best football players, Cristiano Ronaldo set many records
+                            while playing for Manchester United, Real Madrid, Juventus and the Portuguese ...
+                        </p>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#">https://www.instagram.com
+                        </a>
+                        <i class="fas fa-caret-down"></i>
+                        <span class="http-sub"><a href="#"> › cristiano </a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Cristiano Ronaldo (@cristiano) • Instagram photos and videos</a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            529m Followers, 528 Following, 3418 Posts - See Instagram photos and videos from Cristiano
+                            Ronaldo (@cristiano)
+                        </p>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://www.transfermarkt.com</a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                        <span class="http-sub"><a href="#">› profil › spieler </a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Cristiano Ronaldo - Player profile 22/23 | Transfermarkt</a>
+                    </div>
+                    <div class="search-result-intro search-result-intro-with-pic flex">
+                        <div class="search-result-pic">
+                            <img src="./images/celebrates.jpg" alt="" />
+                        </div>
+                        <div class="search-result-intro">
+                            <p>
+                                Cristiano Ronaldo, 37, from Portugal ➤ Al-Nassr FC, since 2022 ➤ Centre-Forward ➤ Market
+                                value: €20.00m ➤ * Feb 5, 1985 in Funchal, Portugal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://www.realmadrid.com</a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                        <span class="http-sub"><a href="#"> › ... › Football legends
+                            </a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Cristiano Ronaldo | Real Madrid CF</a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            Cristiano Ronaldo is a part of Real Madrid's legacy and will forever be remember as one of
+                            the great icons throughout the club's history.
+                        </p>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://www.manchestereveningnews.co.uk</a>
+                        <i class="fas fa-caret-down"></i>
+                        <span class="http-sub"><a href="#"> › Sport
+                            </a></span>
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Cristiano Ronaldo - latest news, stats, injury updates and goals</a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            8 hours ago — Portuguese forward <em>Cristiano Ronaldo</em> joined Manchester United for a
+                            second time in September 2021 when he moved back to Old Trafford from Juventus.
+                        </p>
+                    </div>
+                </div>
+                <div class="search-link">
+                    <div class="http-link">
+                        <a href="#"> https://www.dailymail.co.uk › sport › cristianoronaldo</a>
+                        <!-- <i class="fas fa-caret-down"></i> -->
+                    </div>
+                    <div class="search-topic-heading">
+                        <a href="#">Cristiano Ronaldo News, Stats and Updates | Daily Mail Online</a>
+                    </div>
+                    <div class="search-result-intro">
+                        <p>
+                            12 hours ago — Saudi-bound <em>Cristiano Ronaldo</em> jets off to Riyadh with his family on
+                            their private jet ahead of his Al-Nassr medical - and he could even make his debut this week
+                            ...
+                        </p>
+                        <!-- <div class="search-intro-2 ">
                 <p>
                   Current Talisca <a href="#">Al Nasr</a>
                   <span class="space-1 spac-1"
@@ -705,22 +685,24 @@
                   </span>
                 </p>
               </div> -->
-            </div>
-           
-          </div>
-        </section>
-        <section class="more-section">
-          <div class="more-sec-heading flex align-center">
-            <h3>Related searches</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 more-icon">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
-</svg>
+                    </div>
+
+                </div>
+            </section>
+            <section class="more-section">
+                <div class="more-sec-heading flex align-center">
+                    <h3>Related searches</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 more-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+                    </svg>
 
 
 
-          </div>
-          <div class="accordion">
-  <!-- <details>
+                </div>
+                <div class="accordion">
+                    <!-- <details>
   <summary class="flex align-center summary ">
     
     <span class="flex align-center"><img src="./images/house-2.jpg" alt="" class="house-q"> Lionel Messi house</span>
@@ -745,196 +727,212 @@
     <button class="see-more-btn flex align-center">See more <i class="fas fa-arrow-right"></i></button>
   </div>
 </details> -->
-<details>
-  <summary class="flex align-center summary ">
-    
-    <span class="flex align-center"><img src="./images/striker-1.jpg" alt="" class="house-q"> Real Madrid strikers</span>
-     <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-</svg>
-</span>
-    </summary>
-  <div class="strikers">
-    <div class="accordion-item">
-      <img src="./images/striker-1.jpg" alt="">
-      <span class="stikers-name">Ronaldo</span>
-    </div>
+                    <details>
+                        <summary class="flex align-center summary ">
 
-    <div class="accordion-item">
-      <img src="./images/striker-21.jpg" alt="">
-    <span  class="stikers-name">Kylian Mbappe</span>
-   
-    </div>
+                            <span class="flex align-center"><img src="./images/striker-1.jpg" alt="" class="house-q">
+                                Real Madrid strikers</span>
+                            <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </summary>
+                        <div class="strikers">
+                            <div class="accordion-item">
+                                <img src="./images/striker-1.jpg" alt="">
+                                <span class="stikers-name">Ronaldo</span>
+                            </div>
 
-        <div class="accordion-item">
-          <img src="./images/striker-31.jpg" alt="">
-        <span  class="stikers-name">Erling Haaland</span>
-        </div>
+                            <div class="accordion-item">
+                                <img src="./images/striker-21.jpg" alt="">
+                                <span class="stikers-name">Kylian Mbappe</span>
 
-            <div class="accordion-item">
-              <img src="./images/striker-41.jpg" alt="">
-            <span  class="stikers-name">Karim Benzema</span>
-            </div>
-<div class="accordion-item">
-  <img src="./images/striker-51.jpg" alt="">
-<span  class="stikers-name">Eden Hazard</span>
-</div>
-<div class="accordion-item">
-  <img src="./images/striker-61.jpg" alt="">
-<span  class="stikers-name">Marco Asensio</span>
-</div>
+                            </div>
 
+                            <div class="accordion-item">
+                                <img src="./images/striker-31.jpg" alt="">
+                                <span class="stikers-name">Erling Haaland</span>
+                            </div>
 
-  </div>
-  <div class="see-more">
-    <button class="see-more-btn flex align-center">See more <i class="fas fa-arrow-right"></i></button>
-  </div>
-</details>
-
-<details>
-  <summary class="flex align-center summary ">
-    
-    <span class="flex align-center"><img src="./images/player-11.jpg" alt="" class="house-q"> Portugal roster</span>
-     <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-</svg>
-</span>
-    </summary>
-  <div class="strikers">
-    <div class="accordion-item">
-      <img src="./images/player-11.jpg" alt="">
-      <span class="stikers-name">Bruno Fermandes</span>
-    </div>
-
-    <div class="accordion-item">
-      <img src="./images/player-21.jpg" alt="">
-    <span  class="stikers-name">Pepe</span>
-   
-    </div>
-
-        <div class="accordion-item">
-          <img src="./images/player-31.jpg" alt="">
-        <span  class="stikers-name">Joao Cancelo</span>
-        </div>
-
-            <div class="accordion-item">
-              <img src="./images/player-41.jpg" alt="">
-            <span  class="stikers-name">Rafael Leao</span>
-            </div>
-<div class="accordion-item">
-  <img src="./images/player-51.jpg" alt="">
-<span  class="stikers-name">Diogo Costa</span>
-</div>
-<div class="accordion-item">
-  <img src="./images/player-61.jpg" alt="">
-<span  class="stikers-name">Otavio</span>
-</div>
+                            <div class="accordion-item">
+                                <img src="./images/striker-41.jpg" alt="">
+                                <span class="stikers-name">Karim Benzema</span>
+                            </div>
+                            <div class="accordion-item">
+                                <img src="./images/striker-51.jpg" alt="">
+                                <span class="stikers-name">Eden Hazard</span>
+                            </div>
+                            <div class="accordion-item">
+                                <img src="./images/striker-61.jpg" alt="">
+                                <span class="stikers-name">Marco Asensio</span>
+                            </div>
 
 
-  </div>
-  <div class="see-more">
-    <button class="see-more-btn flex align-center">See more <i class="fas fa-arrow-right"></i></button>
-  </div>
-</details>
+                        </div>
+                        <div class="see-more">
+                            <button class="see-more-btn flex align-center">See more <i
+                                    class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </details>
 
-<div class="feedback flex between align-center">
-  <div class="line"></div>
-  <div class="text">Feedback</div>
-</div>
+                    <details>
+                        <summary class="flex align-center summary ">
 
-<div class="more-btns">
-  <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span>ronaldo <span class="bold">brazil</span></span>
-  </button>
-   <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span><span class="bold">cristiano</span> ronaldo <span class="bold"> jr</span></span>
-  </button>
-   <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span>c ronaldo <span class="bold">chelsea</span></span>
-  </button>
-   <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span><span class="bold">cristiano</span> ronaldo <span class="bold">net worth</span></span>
-  </button>
-   <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span> <span class="bold">cristiano</span> ronaldo <span class="bold">goals</span></span>
-  </button>
-   <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span> cristiano ronaldo <span class="bold">video</span></span>
-  </button>
-   <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span>c ronaldo <span class="bold">news</span></span>
-  </button>
-   <button class="more_btn flex align-center">
-    <i class="fas fa-search"></i> <span><span class="bold">c.</span> ronaldo <span class="bold">transfermarkt</span></span>
-  </button>
-</div>
-<div class="pagination flex align-center">
-  <div class="long-logo">
-    <span class="blue">G</span>
-    <span class="red">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="orange">o</span>
-    <span class="blue">g</span>
-   <span class="green">l</span>
-   <span class="red">e</span>
-  </div>
+                            <span class="flex align-center"><img src="./images/player-11.jpg" alt="" class="house-q">
+                                Portugal roster</span>
+                            <span class="arrow-down"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </summary>
+                        <div class="strikers">
+                            <div class="accordion-item">
+                                <img src="./images/player-11.jpg" alt="">
+                                <span class="stikers-name">Bruno Fermandes</span>
+                            </div>
 
-  <div class="page-number flex ">
-    
-     <span class="">1</span>
-    <span class="page">2</span>
-    <span class="page">3</span>
-    <span class="page">4</span>
-    <span class="page">5</span>
-    <span class="page">6</span>
-    <span class="page">7</span>
-    <span class="page">8</span>
-    <span class="page">9</span>
-    <span class="page ten">10</span>
-   
-  </div>
+                            <div class="accordion-item">
+                                <img src="./images/player-21.jpg" alt="">
+                                <span class="stikers-name">Pepe</span>
 
-  <div class="next-text">Next</div>
-  <div class="next-arrow"><i class="fas fa-chevron-right"></i></div>
-</div>
+                            </div>
 
-</div>
+                            <div class="accordion-item">
+                                <img src="./images/player-31.jpg" alt="">
+                                <span class="stikers-name">Joao Cancelo</span>
+                            </div>
+
+                            <div class="accordion-item">
+                                <img src="./images/player-41.jpg" alt="">
+                                <span class="stikers-name">Rafael Leao</span>
+                            </div>
+                            <div class="accordion-item">
+                                <img src="./images/player-51.jpg" alt="">
+                                <span class="stikers-name">Diogo Costa</span>
+                            </div>
+                            <div class="accordion-item">
+                                <img src="./images/player-61.jpg" alt="">
+                                <span class="stikers-name">Otavio</span>
+                            </div>
+
+
+                        </div>
+                        <div class="see-more">
+                            <button class="see-more-btn flex align-center">See more <i
+                                    class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </details>
+
+                    <div class="feedback flex between align-center">
+                        <div class="line"></div>
+                        <div class="text">Feedback</div>
+                    </div>
+
+                    <div class="more-btns">
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span>ronaldo <span class="bold">brazil</span></span>
+                        </button>
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span><span class="bold">cristiano</span> ronaldo <span
+                                    class="bold"> jr</span></span>
+                        </button>
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span>c ronaldo <span class="bold">chelsea</span></span>
+                        </button>
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span><span class="bold">cristiano</span> ronaldo <span
+                                    class="bold">net worth</span></span>
+                        </button>
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span> <span class="bold">cristiano</span> ronaldo <span
+                                    class="bold">goals</span></span>
+                        </button>
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span> cristiano ronaldo <span
+                                    class="bold">video</span></span>
+                        </button>
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span>c ronaldo <span class="bold">news</span></span>
+                        </button>
+                        <button class="more_btn flex align-center">
+                            <i class="fas fa-search"></i> <span><span class="bold">c.</span> ronaldo <span
+                                    class="bold">transfermarkt</span></span>
+                        </button>
+                    </div>
+                    <div class="pagination flex align-center">
+                        <div class="long-logo">
+                            <span class="blue">G</span>
+                            <span class="red">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="orange">o</span>
+                            <span class="blue">g</span>
+                            <span class="green">l</span>
+                            <span class="red">e</span>
+                        </div>
+
+                        <div class="page-number flex ">
+
+                            <span class="">1</span>
+                            <span class="page">2</span>
+                            <span class="page">3</span>
+                            <span class="page">4</span>
+                            <span class="page">5</span>
+                            <span class="page">6</span>
+                            <span class="page">7</span>
+                            <span class="page">8</span>
+                            <span class="page">9</span>
+                            <span class="page ten">10</span>
+
+                        </div>
+
+                        <div class="next-text">Next</div>
+                        <div class="next-arrow"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <section class="footer-section">
+            <footer>
+                <div class="footer-top flex align-center">
+                    <div class="niger flex align-center">
+                        <p>Nigeria</p>
+                    </div>
+
+                    <div class="state flex align-center">
+                        <div class="state-dot"></div>
+                        <span class="ontario">Jankara</span>
+                        <span>&nbsp; - &nbsp;</span>
+                        <span class="location">Based on your past activity</span>
+                        <span>&nbsp; - &nbsp;</span>
+                        <span class="location">Update location</span>
+                    </div>
+                </div>
+                <div class="footer-botom">
+                    <ul class="flex">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Send feedback</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </footer>
         </section>
-      </main>
-
-      <section class="footer-section">
-        <footer>
-          <div class="footer-top flex align-center">
-            <div class="niger flex align-center"><p>Nigeria</p></div>
-           
-            <div class="state flex align-center">
-              <div class="state-dot"></div>
-              <span class="ontario">Jankara</span>
-              <span>&nbsp; - &nbsp;</span>
-              <span class="location">Based on your past activity</span>
-<span>&nbsp; - &nbsp;</span>
-<span class="location">Update location</span>
-            </div>
-          </div>
-          <div class="footer-botom">
-            <ul class="flex">
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Send feedback</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-            </ul>
-          </div>
-        </footer>
-      </section>
     </div>
-  </body>
+</body>
+
 </html>
 
 
